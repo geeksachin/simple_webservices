@@ -9,8 +9,6 @@
 		$email = $_POST['email'];
 		$password = sha1($_POST['password']);
 		//check email id if is exist
-		// $query = mysql_query("SELECT * FROM web_service1 WHERE email = '$email'");
-		// $countRow = mysql_num_rows($query);
 		if(emailAvail($email) === false)
 			{
 				$data['code'] = '302';
