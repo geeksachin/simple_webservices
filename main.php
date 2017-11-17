@@ -1,7 +1,7 @@
 <?php
 	include ('conn.php');
-	ini_set('display_errors','On');
-	error_reporting(E_ALL);
+	// ini_set('display_errors','On');
+	// error_reporting(E_ALL);
 	header('Content-Type: application/json');
 	if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password']))
 	{
