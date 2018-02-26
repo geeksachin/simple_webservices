@@ -1,1 +1,1 @@
-# Simple core php webservicess
+# Simple core php webservices
